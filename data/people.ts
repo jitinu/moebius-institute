@@ -77,6 +77,15 @@ export const people: Person[] = [
     group: "Education & Research",
   },
   {
+    id: "terry-lee",
+    name: "Terry Lee",
+    role: "Education",
+    bio: "Terry Lee is Associate Head of School at The Nueva School, where he plays a central role in shaping the school's strategic initiatives, academic vision and community safety. He began his career in education after double-majoring in mathematics and psychology at Oberlin College, and brings a deep commitment to student-centred learning and faculty mentorship. At Nueva he has guided programme planning across the school's campuses, supported experiential learning frameworks and advocated for holistic student development.",
+    headshot: "/people/terry-lee.jpg",
+    expertise: ["School leadership", "Experiential learning", "Faculty mentorship"],
+    group: "Education & Research",
+  },
+  {
     id: "ted-theodosopoulos",
     name: "Ted Theodosopoulos",
     role: "Education & Research",
