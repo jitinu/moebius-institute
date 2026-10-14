@@ -41,11 +41,11 @@ export const peopleGroups: Person["group"][] = [
 
 export const people: Person[] = [
   {
-    id: "daniel",
-    name: "Daniel",
+    id: "daniel-koo",
+    name: "Daniel Koo",
     role: "Co-founder",
     bio: "Daniel grew up in the Bay Area in a family surrounded by technology, and an early interest in technology and artificial intelligence became a commitment to help shape the future rather than watch it unfold. He is particularly interested in interdisciplinary work and in how technology interacts with people, culture and society. His academic and professional interests span mathematics, computer science, research and business.",
-    headshot: "/people/daniel.jpg",
+    headshot: "/people/daniel-koo.jpg",
     expertise: ["Mathematics", "Computer science", "Interdisciplinary research", "Business"],
     group: "Founding team",
   },
@@ -59,6 +59,24 @@ export const people: Person[] = [
     group: "Founding team",
   },
   {
+    id: "michael-fors",
+    name: "Dr. Michael A. Fors",
+    role: "Co-founder",
+    bio: "Dr. Michael A. Fors is a global executive and educational leader. He serves as Chairman of the Advisory Board for the Division for Prosperity of the United Nations Institute for Training and Research (UNITAR), directing programmes on entrepreneurship, youth empowerment and economic development in post-conflict and developing regions. His career spans leadership positions at Boeing, Microsoft and Intel, and academic appointments including Dean of the School of Business and Management at City University of Seattle and teaching roles at Stanford and Columbia Universities.",
+    headshot: "/people/michael-fors.jpg",
+    expertise: ["Youth empowerment", "Entrepreneurship", "Economic development", "Business education"],
+    group: "Founding team",
+  },
+  {
+    id: "diane-rosenberg",
+    name: "Diane Rosenberg",
+    role: "Education",
+    bio: "Diane Rosenberg was Head of The Nueva School from 2001 to 2020 and has worked in PreK–12 independent schools for nearly forty years, including as a teacher and administrator at The Park School in Baltimore and Princeton Day School. During her tenure Nueva grew from 317 to 950 students, opened an upper school for grades 9 to 12, deepened its social-emotional learning programmes and created a K–12 design thinking and engineering programme through its own I-Lab and in collaboration with Stanford University's Institute of Design. The school established international exchanges with schools in China, Japan and Spain and was recognised as an Ashoka Changemaker School, an Apple Distinguished Program, a National School of Character, a National Blue Ribbon School and a Green Ribbon School.",
+    headshot: "/people/diane-rosenberg.jpg",
+    expertise: ["School leadership", "Design thinking in education", "Social-emotional learning"],
+    group: "Education & Research",
+  },
+  {
     id: "ted-theodosopoulos",
     name: "Ted Theodosopoulos",
     role: "Education & Research",
@@ -69,5 +87,5 @@ export const people: Person[] = [
   },
 ];
 
-/** First few entries for the home-page preview. */
-export const featuredPeople = people.slice(0, 3);
+/** Founding team, shown on the home page. */
+export const featuredPeople = people.filter((p) => p.group === "Founding team").slice(0, 3);
