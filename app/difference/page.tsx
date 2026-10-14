@@ -9,7 +9,7 @@ import { principles } from "@/data/principles";
 export const metadata: Metadata = {
   title: "Principles",
   description:
-    "The three principles that define MOEBIUS — Youth Representation, Interdisciplinary Thinking and Intergenerational Collaboration — and the range of people the institute brings together.",
+    "The three principles that define MOEBIUS: Youth Representation, Interdisciplinary Thinking and Intergenerational Collaboration, and the range of people the institute brings together.",
 };
 
 const roles = [
@@ -28,7 +28,7 @@ export default function PrinciplesPage() {
       <PageHeader
         eyebrow="Principles"
         title="Three commitments: representation, interdisciplinary inquiry, and collaboration across generations."
-        lede="Many institutions think about artificial superintelligence (ASI). Some think about young people. MOEBIUS is defined by the combination — and by a practical commitment to connecting the two."
+        lede="Many institutions think about artificial superintelligence (ASI). Some think about young people. MOEBIUS is defined by the combination, and by a practical commitment to connecting the two."
       />
 
       {principles.map((p, i) => (
@@ -46,7 +46,7 @@ export default function PrinciplesPage() {
           <Prose className="lg:col-span-6">
             <p>
               MOEBIUS is youth-focused, not youth-only. Its ambition is to bring together people with different
-              experiences and forms of expertise — young people alongside researchers, technologists, entrepreneurs,
+              experiences and forms of expertise: young people alongside researchers, technologists, entrepreneurs,
               educators, policymakers and other relevant thinkers.
             </p>
             <p>

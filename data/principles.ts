@@ -13,7 +13,7 @@ export const principles: Principle[] = [
     summary:
       "Young people should be more than the subjects of discussions about their future. Their experiences, concerns and ideas should inform those discussions.",
     body: [
-      "Young people are frequently discussed in conversations about the future of intelligence — as learners to prepare, users to protect, or a workforce to retrain — and far less frequently heard. MOEBIUS begins from the position that their experiences, concerns and ideas should meaningfully inform the decisions that will shape their lives.",
+      "Young people are frequently discussed in conversations about the future of intelligence, as learners to prepare, users to protect, or a workforce to retrain, and far less frequently heard. MOEBIUS begins from the position that their experiences, concerns and ideas should meaningfully inform the decisions that will shape their lives.",
       "We aim to make youth participation more substantive by developing ways to listen to young people systematically, understand what they report, and bring those insights into dialogue with researchers, technologists and decision-makers.",
     ],
   },
@@ -31,9 +31,9 @@ export const principles: Principle[] = [
     numeral: "III",
     title: "Intergenerational Collaboration",
     summary:
-      "Those developing and studying advanced AI bring expertise; young people bring firsthand experience of growing up alongside it. Neither is sufficient alone.",
+      "Those developing and studying ASI bring expertise; young people bring firsthand experience of growing up alongside increasingly capable systems. Neither is sufficient alone.",
     body: [
-      "The people building and studying advanced AI systems hold specialised knowledge and institutional experience that cannot be shortcut. Young people hold a different kind of knowledge: firsthand experience of growing up alongside rapidly changing technologies, and a direct stake in how they develop.",
+      "The people building and studying advanced intelligent systems hold specialised knowledge and institutional experience that cannot be shortcut. Young people hold a different kind of knowledge: firsthand experience of growing up alongside rapidly changing technologies, and a direct stake in how they develop.",
       "MOEBIUS aims to create settings in which these forms of knowledge inform one another, on the understanding that neither technical expertise nor lived experience is sufficient on its own.",
     ],
   },

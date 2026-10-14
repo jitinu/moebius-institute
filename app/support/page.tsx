@@ -23,9 +23,9 @@ const uses = [
 const supporters = [
   "Individuals who care about how the next generation is represented in decisions about ASI",
   "Foundations working on technology, education, youth or the long-term future",
-  "Companies developing or deploying advanced AI systems",
+  "Companies developing or deploying advanced intelligent systems",
   "Research institutions and universities",
-  "Organisations working on policy, governance or public understanding of AI",
+  "Organisations working on policy, governance or public understanding of ASI",
 ];
 
 export default function SupportPage() {
@@ -34,13 +34,13 @@ export default function SupportPage() {
       <PageHeader
         eyebrow="Partnerships & Funding"
         title="Building the capacity to bring the next generation into decisions about intelligence."
-        lede="MOEBIUS is an emerging institute. Its ambition — a rigorous, practical way of listening to young people and bringing what they say into discussions about artificial superintelligence (ASI) — requires infrastructure that does not yet exist. Partners and funders can help build it."
+        lede="MOEBIUS is an emerging institute. Its ambition, a rigorous and practical way of listening to young people and bringing what they say into discussions about artificial superintelligence (ASI), requires infrastructure that does not yet exist. Partners and funders can help build it."
       />
 
       <Section number="01" eyebrow="Why it matters" title="A perspective at risk of being overlooked.">
         <Prose>
           <p>
-            Substantial resources are devoted to advancing AI capabilities, studying technical risks and developing
+            Substantial resources are devoted to advancing the capabilities of intelligent systems, studying technical risks and developing
             policy. Far less is devoted to understanding how the people who will live longest with these systems
             experience them, what they need, and what they believe should happen next. The result is a persistent gap
             between the conversations shaping the future of intelligence and the generation that will inherit it.
@@ -76,7 +76,7 @@ export default function SupportPage() {
             <p>
               We are seeking partners and funders who share an interest in the relationship between ASI and humanity
               and who recognise the value of the next generation&apos;s perspective within it. Partnership can take
-              many forms — funding, research collaboration, access to expertise, or help reaching young people in
+              many forms: funding, research collaboration, access to expertise, or help reaching young people in
               places we do not yet reach.
             </p>
             <p>

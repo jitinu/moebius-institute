@@ -29,20 +29,20 @@ export default function ApproachPage() {
         lede="A think tank on artificial superintelligence (ASI) and humanity that claims to represent the next generation must be able to answer a direct question: how, in practice, will it hear young people? MOEBIUS's answer is its connection to ALPHAG3N."
       />
 
-      <Section number="01" eyebrow="ALPHAG3N" title="An existing community of young people engaged with AI and emerging technology.">
+      <Section number="01" eyebrow="ALPHAG3N" title="An existing community of young people engaged with emerging technology.">
         <div className="grid gap-10 lg:grid-cols-9">
           <Prose className="lg:col-span-6">
             <p>
-              ALPHAG3N is a youth-led AI and technology community startup that connects young people with one another
+              ALPHAG3N is a youth-led technology community startup that connects young people with one another
               and with people working at the forefront of emerging technologies. It has organised conferences,
               workshops, hackathons and educational activities across the United States, South Korea, Japan and
               Taiwan, bringing students into contact with researchers, founders, engineers, educators and industry
               leaders. Its community has grown to more than 500 members.
             </p>
             <p>
-              These activities were built around AI and emerging technologies broadly, rather than ASI specifically.
+              These activities were built around emerging technologies broadly, rather than ASI specifically.
               What they provide is experience of how young people in different educational, cultural and geographic
-              contexts engage with these technologies — the foundation on which MOEBIUS&apos;s approach rests.
+              contexts engage with these technologies, which is the foundation on which MOEBIUS&apos;s approach rests.
             </p>
           </Prose>
           <Reveal className="lg:col-span-3" delay={120}>
@@ -61,12 +61,12 @@ export default function ApproachPage() {
           <p>
             ALPHAG3N Network is the community-building branch of ALPHAG3N. Its purpose is to connect students across
             schools, countries, cultures and backgrounds through educational opportunities, events, projects and
-            relationships with people working in AI and technology.
+            relationships with people working in emerging technology.
           </p>
           <p>
             For MOEBIUS, this network represents a potential channel for listening: a way to learn about young
             people&apos;s experiences, concerns, needs and aspirations directly rather than by inference. The aim is to
-            understand a diversity of perspectives — including the differences between them — rather than to treat young
+            understand a diversity of perspectives, including the differences between them, rather than to treat young
             people as a single, homogeneous group.
           </p>
         </Prose>
@@ -76,14 +76,14 @@ export default function ApproachPage() {
         <Prose>
           <p>
             ALPHAG3N Intelligence is the planned research and insight-oriented branch of ALPHAG3N. Its purpose is to
-            develop a more systematic understanding of how young people experience and use AI, how emerging
+            develop a more systematic understanding of how young people experience and use intelligent systems, how emerging
             technologies affect their lives, and how they believe those technologies should evolve.
           </p>
           <p>
             The intended approach is to gather perspectives through the ALPHAG3N Network, synthesise them into
             meaningful insights, and bring those insights to the people and institutions developing technologies,
             educational programmes, policies and other initiatives that affect the next generation. Over time, the
-            ambition is a continuously growing knowledge base of youth perspectives on AI and its implications.
+            ambition is a continuously growing knowledge base of youth perspectives on ASI and its implications.
           </p>
           <p>
             This is not simply the collection of opinions. The goal is to identify recurring concerns, differences
@@ -115,7 +115,7 @@ export default function ApproachPage() {
         <Prose className="mt-10">
           <p>
             Through this model, MOEBIUS can connect the lived experience of young people with interdisciplinary research
-            and with broader discussion about the future of intelligence. Many institutions study powerful AI systems.
+            and with broader discussion about the future of intelligence. Many institutions study powerful intelligent systems.
             MOEBIUS aims to build a more direct relationship between the people affected by technological change and
             the people shaping its direction.
           </p>

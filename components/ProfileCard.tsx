@@ -12,7 +12,7 @@ type Props = { person: Person; index?: number; compact?: boolean };
 export default function ProfileCard({ person, index = 0, compact = false }: Props) {
   return (
     <Reveal as="article" className="group flex flex-col" delay={Math.min(index, 5) * 70}>
-      <div className="relative aspect-[4/5] overflow-hidden bg-paper-deep">
+      <div className="relative aspect-square overflow-hidden bg-paper-deep">
         <Image
           src={asset(person.headshot ?? "/people/placeholder.svg")}
           alt={person.headshot ? `Portrait of ${person.name}` : ""}

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 const seeking = [
-  ["Young people", "Students and early-career contributors with firsthand experience of growing up alongside AI, who want to do serious work on these questions."],
+  ["Young people", "Students and early-career contributors with firsthand experience of growing up alongside increasingly capable systems, who want to do serious work on these questions."],
   ["Researchers", "Across computer science, philosophy, education, economics, psychology, policy and related fields."],
   ["Practitioners", "Technologists, entrepreneurs and educators who build, deploy or teach with these systems."],
   ["Advisors", "Experienced figures from research, policy, education and industry willing to work alongside younger members as peers."],
@@ -26,8 +26,8 @@ export default function PeoplePage() {
     <>
       <PageHeader
         eyebrow="People"
-        title={hasPeople ? "The people building MOEBIUS." : "A founding group being assembled."}
-        lede="MOEBIUS brings together young people, researchers, technologists, entrepreneurs, educators and policymakers. We introduce members here only once their participation has been confirmed."
+        title={hasPeople ? "A founding group spanning generations and disciplines." : "A founding group being assembled."}
+        lede="MOEBIUS brings together young people, researchers, technologists, entrepreneurs, educators and policymakers. Members are introduced here once their participation has been confirmed."
       />
 
       {hasPeople ? (
@@ -55,7 +55,7 @@ export default function PeoplePage() {
           <Prose>
             <p>
               MOEBIUS is at the beginning of its institutional life. Its founders bring experience from ALPHAG3N, an
-              international youth AI and technology community, and are now assembling a founding group that spans
+              international youth technology community, and are now assembling a founding group that spans
               generations and disciplines.
             </p>
             <p>
@@ -67,7 +67,7 @@ export default function PeoplePage() {
         </Section>
       )}
 
-      <Section number={hasPeople ? undefined : "02"} eyebrow="Who we are looking for" title="Join the founding group.">
+      <Section number={hasPeople ? undefined : "02"} eyebrow="Who we are looking for" title="Join us.">
         <ul className="max-w-3xl divide-y divide-rule border-y border-rule">
           {seeking.map(([who, what], i) => (
             <Reveal as="li" key={who} className="grid gap-3 py-6 sm:grid-cols-[11rem_1fr]" delay={i * 60}>

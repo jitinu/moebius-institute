@@ -3,7 +3,6 @@ export type NavItem = { label: string; href: string };
 /** Streamlined primary navigation: only pages with substantive content. */
 export const primaryNav: NavItem[] = [
   { label: "Mission", href: "/mission" },
-  { label: "Why MOEBIUS", href: "/why" },
   { label: "Our Approach", href: "/approach" },
   { label: "People", href: "/people" },
   { label: "Partnerships & Funding", href: "/support" },
@@ -16,8 +15,7 @@ export const footerNav: { heading: string; items: NavItem[] }[] = [
     heading: "Institute",
     items: [
       { label: "Mission", href: "/mission" },
-      { label: "Why MOEBIUS", href: "/why" },
-      { label: "Our Approach", href: "/approach" },
+          { label: "Our Approach", href: "/approach" },
       { label: "Principles", href: "/difference" },
       { label: "People", href: "/people" },
     ],

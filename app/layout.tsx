@@ -22,7 +22,7 @@ const sans = Inter({
 export const metadata: Metadata = {
   title: {
     default: site.fullName,
-    template: `%s — ${site.name}`,
+    template: `%s | ${site.name}`,
   },
   description: site.description,
   applicationName: site.name,
