@@ -7,13 +7,9 @@ export default function EventsPage() {
   return (
     <EmptyState
       eyebrow="Events"
-      title="Conversations across generations."
-      description="We have not yet scheduled public events. When we do, this page will list them with dates, locations and how to take part."
-      expect={[
-        "Small roundtables rather than large stages",
-        "Sessions where young people set the agenda and lead the discussion",
-        "Recordings and notes published afterwards where participants agree",
-      ]}
+      title="Events will be listed here when scheduled."
+      description="MOEBIUS has not yet scheduled public events. When it does, this page will list them with dates, locations and how to take part."
+      expect={["Small roundtables rather than large stages", "Sessions in which young people help set the agenda", "Notes or recordings published afterwards where participants agree"]}
     />
   );
 }

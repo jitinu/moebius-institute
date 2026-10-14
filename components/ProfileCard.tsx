@@ -15,16 +15,11 @@ export default function ProfileCard({ person, index = 0, compact = false }: Prop
       <div className="relative aspect-[4/5] overflow-hidden bg-paper-deep">
         <Image
           src={asset(person.headshot ?? "/people/placeholder.svg")}
-          alt={person.placeholder ? "" : `Portrait of ${person.name}`}
+          alt={person.headshot ? `Portrait of ${person.name}` : ""}
           fill
           sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
           className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
         />
-        {person.placeholder ? (
-          <span className="absolute left-3 top-3 rounded-full border border-ink/30 bg-paper/90 px-2.5 py-1 font-sans text-[0.625rem] uppercase tracking-[0.14em] text-ink-soft">
-            Placeholder
-          </span>
-        ) : null}
       </div>
 
       <div className="mt-5">

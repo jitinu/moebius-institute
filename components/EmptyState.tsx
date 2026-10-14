@@ -27,7 +27,7 @@ export default function EmptyState({ eyebrow, title, description, expect, childr
             </Reveal>
             <Reveal className="mt-8 flex items-center gap-3" delay={120}>
               <span className="inline-block h-1.5 w-1.5 rounded-full bg-ochre" aria-hidden="true" />
-              <p className="font-sans text-sm tracking-[0.02em] text-muted">Coming soon</p>
+              <p className="font-sans text-sm tracking-[0.02em] text-muted">In development</p>
             </Reveal>
           </div>
         </div>

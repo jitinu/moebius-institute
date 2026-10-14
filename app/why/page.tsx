@@ -8,98 +8,90 @@ import Section from "@/components/Section";
 export const metadata: Metadata = {
   title: "Why MOEBIUS",
   description:
-    "The gap MOEBIUS addresses: young people treated as passive recipients of AI rather than active participants in shaping it.",
+    "The gap MOEBIUS addresses: young people's perspectives are not yet a consistent part of the decisions shaping artificial superintelligence.",
 };
+
+const contributions = [
+  ["Researchers", "Specialised knowledge of how these systems work, what they can and cannot do, and where the open problems lie."],
+  ["Practitioners", "Understanding of the systems they build and deploy, and of the constraints under which decisions are actually made."],
+  ["Policymakers", "Attention to institutional, legal and societal implications, and to the trade-offs between them."],
+  ["Young people", "Firsthand experience of growing up alongside these technologies, emerging needs, and perspectives that might otherwise be overlooked."],
+];
 
 export default function WhyPage() {
   return (
     <>
       <PageHeader
         eyebrow="Why MOEBIUS"
-        title="The people most affected by AI have the least say in it."
-        lede="Young people will live longest with the intelligent systems being built today. They encounter those systems earliest and most intensively. And they are, almost everywhere, absent from the places where decisions about them are made."
+        title="The next generation should help shape the future it will inherit."
+        lede="The possible development of artificial superintelligence (ASI) raises questions that reach far beyond technical capability. Those questions cannot be answered well without understanding the people most affected by the answers — and young people are, so far, among the least heard."
       />
 
-      <Section number="01" eyebrow="The gap" title="Recipients, not participants.">
-        <div className="grid gap-x-12 gap-y-12 lg:grid-cols-9">
-          <Prose className="lg:col-span-6">
-            <p>
-              Look at where AI is discussed seriously — research labs, policy forums, boardrooms, editorial pages — and
-              a pattern appears. Young people are everywhere as a topic and almost nowhere as a voice. They are
-              described as users to be protected, learners to be prepared, a workforce to be retrained, a generation to
-              be worried about.
-            </p>
-            <p>
-              Each of these framings casts young people as <strong>recipients</strong>: people to whom AI happens, and
-              to whom its consequences are later explained. What is missing is the other role — young people as{" "}
-              <strong>participants</strong> who study the technology, question it, shape how it is used and argue in
-              public about what it should be for.
-            </p>
-            <p>
-              This is not a small omission. It leaves the people with the longest stake in the outcome outside the
-              conversation, and it deprives the conversation of a perspective no one else can supply.
-            </p>
-          </Prose>
-          <Reveal className="lg:col-span-3" delay={120}>
-            <dl className="space-y-6 border-l border-rule pl-6">
-              <div>
-                <dt className="eyebrow">Recipient</dt>
-                <dd className="mt-2 text-sm leading-relaxed text-ink-soft">
-                  Receives AI as a finished fact. Is taught about it, protected from it, prepared for it.
-                </dd>
-              </div>
-              <div>
-                <dt className="eyebrow text-ochre">Participant</dt>
-                <dd className="mt-2 text-sm leading-relaxed text-ink-soft">
-                  Studies it, questions it, helps decide how it is used. Speaks in their own voice, in the rooms where
-                  it matters.
-                </dd>
-              </div>
-            </dl>
-          </Reveal>
-        </div>
-      </Section>
-
-      <Section number="02" eyebrow="Across generations" title="Not for the next generation. With them.">
+      <Section number="01" eyebrow="The gap" title="Consequential conversations with a consistent absence.">
         <Prose>
           <p>
-            The answer to young people&apos;s absence is not a separate youth conversation running in parallel to the
-            real one. It is a shared conversation in which generations work as peers.
+            How might increasingly powerful intelligence transform education, creativity, work, opportunity and human
+            agency? What will different communities need? How should these systems account for the experiences and
+            interests of the people who will live alongside them? These are not questions about capability alone; they
+            are questions about people.
           </p>
           <p>
-            Older generations hold things that cannot be shortcut: deep technical knowledge, institutional memory, the
-            experience of previous technological shifts and of how decisions actually get made. Younger generations hold
-            things that cannot be taught: a native understanding of how these systems feel from the inside, what they
-            change about learning, friendship and ambition, and what is at stake for a life that will mostly be lived
-            after the current debates are over.
+            Young people are already experiencing the effects of AI in their education, their creative work and their
+            daily lives. Yet their perspectives are not consistently incorporated into the research, policies, products
+            and institutions shaping their future. This is not because existing organisations are indifferent to young
+            people. It is that youth participation remains insufficient in many of the conversations that matter most,
+            and few institutions are designed to strengthen it.
           </p>
+          <p>MOEBIUS is designed to address this gap.</p>
+        </Prose>
+      </Section>
+
+      <Section number="02" eyebrow="Complementary, not substitute" title="Youth perspectives should inform expertise, not replace it.">
+        <Prose>
           <p>
-            MOEBIUS is built on the conviction that these are complementary, and that the most useful thinking about AI
-            will come from putting them together.
+            We do not believe that young people&apos;s views should displace technical expertise or established
+            research. Good decisions about ASI will require several kinds of knowledge, each of which is incomplete on
+            its own.
           </p>
         </Prose>
-        <Reveal className="mt-14 max-w-3xl" delay={100}>
-          <blockquote className="border-l border-ochre pl-6 sm:pl-8">
-            <p className="font-serif text-h2 leading-tight text-ink">
-              The future of AI should not be shaped only <em>for</em> the next generation. It should be shaped{" "}
-              <em>with</em> them.
-            </p>
-          </blockquote>
-        </Reveal>
+        <ul className="mt-10 max-w-3xl divide-y divide-rule border-y border-rule">
+          {contributions.map(([who, what], i) => (
+            <Reveal as="li" key={who} className="grid gap-3 py-6 sm:grid-cols-[11rem_1fr]" delay={i * 60}>
+              <p className="eyebrow pt-1">{who}</p>
+              <p className="text-[1.125rem] leading-[1.7] text-ink-soft text-pretty">{what}</p>
+            </Reveal>
+          ))}
+        </ul>
+        <Prose className="mt-10">
+          <p>
+            MOEBIUS&apos;s distinctive purpose is to create meaningful connections among these perspectives — so that
+            what young people report can be examined with the rigour of research, and so that research and policy can be
+            informed by what young people actually experience.
+          </p>
+        </Prose>
       </Section>
 
-      <Section number="03" eyebrow="What follows" title="A place built to practise this.">
+      <Section number="03" eyebrow="Across countries and cultures" title="Listening widely enough to hear the differences.">
         <Prose>
           <p>
-            Closing the gap requires more than good intentions; it requires an institution designed around it. MOEBIUS
-            is that institution: a think tank in which young people lead the work, disciplines meet rather than compete,
-            and generations collaborate as equals.
+            Through its connection with ALPHAG3N&apos;s international student community, MOEBIUS aims to bring a wider
+            range of youth perspectives into conversations about the future of intelligence. Listening across
+            countries, cultures, educational systems and socioeconomic circumstances can reveal differences in how
+            young people experience emerging technologies, what they need, and what they hope these technologies will
+            make possible.
+          </p>
+          <p>
+            We do not assume that young people share a single view. The objective is to understand both the concerns
+            they hold in common and the differences between them, which are often where the most useful insight lies.
+            ALPHAG3N&apos;s community — with members and activities across the United States, South Korea, Japan and
+            Taiwan — is an existing foundation for this work, not a claim to global coverage. MOEBIUS hopes to develop
+            it further.
           </p>
         </Prose>
         <Reveal className="mt-12 flex flex-wrap gap-4" delay={120}>
-          <ButtonLink href="/difference">What makes MOEBIUS different</ButtonLink>
-          <ButtonLink href="/mission" variant="outline">
-            Our mission
+          <ButtonLink href="/approach">How we intend to listen</ButtonLink>
+          <ButtonLink href="/difference" variant="outline">
+            Our principles
           </ButtonLink>
         </Reveal>
       </Section>

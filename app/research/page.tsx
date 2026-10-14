@@ -7,11 +7,11 @@ export default function ResearchPage() {
   return (
     <EmptyState
       eyebrow="Research"
-      title="Research shaped with young people, not just about them."
-      description="MOEBIUS is at an early stage. We are defining our first research questions and have not yet published findings. When we do, they will appear here, with methods and limitations stated plainly."
+      title="Research will be published here as it is produced."
+      description="MOEBIUS is defining its initial research questions and has not yet published findings. When it does, they will appear here with methods, sources and limitations stated plainly."
       expect={[
-        "Short briefings written by young researchers with mentors from other generations",
-        "Longer studies on how AI is changing learning, work and public life for young people",
+        "Briefings synthesising young people's perspectives on AI and its implications",
+        "Longer studies on how increasingly powerful intelligence may affect education, work, creativity and agency",
         "Open questions we are working on, and what we do not yet know",
       ]}
     />
